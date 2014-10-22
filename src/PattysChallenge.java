@@ -27,12 +27,9 @@ public class PattysChallenge {
 			System.out.println("Existem " + pares + " números pares.");
 			System.out.println("Existem " + impares + " números ímpares.");
 			
-			for(int i =0 ; i<100; i++){
-//				System.out.println("O número: " + i + " se repetiu " + numeros[i] + " vezes.");
-				System.out.println(i+" " + numeros[i]);
-			}
-				
-			
+			for(int i =0 ; i<100; i++)
+				if(numeros[i] == 0)
+				    System.out.println("O número: " + i + " se repetiu " + numeros[i] + " vezes.");
 			
 		} catch (Exception ex) {
 			
